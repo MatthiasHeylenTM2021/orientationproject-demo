@@ -1,0 +1,163 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Use Google fonts - Choose a nice color scheme - Use correct images in the appropriate file format
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "montserrat", "sans-serif";
+}
+
+h1,
+h2 {
+    font-weight: 800;
+}
+
+p {
+    line-height: 2rem;
+}
+
+/*nav style*/
+#navlarge li a {
+    border-left: 1px solid #0288d19e;
+}
+
+#nav-mobile li a {
+    border-bottom: 1px solid #0288d19e;
+    padding: 0;
+    padding-left: 4px;
+
+}
+
+#nav-mobile li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#closebutton i {
+    padding-left: 6px;
+}
+
+#bezoekvl {
+    border-left: 0px !important;
+
+}
+
+#nav-mobile {
+    padding-top: 20px;
+}
+
+.sidenav-trigger {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+footer a {
+    color: #FCEC8D;
+}
+
+footer a:hover {
+    color: #F2C60C;
+}
+
+#footer li i {
+    padding-right: 5px;
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+
+.justify {
+    text-align: justify;
+}
+
+.nojustify {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .nojustify {
+        font-size: 1.1rem;
+    }
+
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .nojustify {
+        font-size: 1.4rem;
+    }
+
+    .grote {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width:658px) {
+    .grote {
+        font-size: 1.9rem;
+    }
+}
+
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
